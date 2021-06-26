@@ -8,6 +8,9 @@
 
 # from geometry.triangle as gt
 # print(f'Area of triangle with width 10 and height 8 is {gt.count_triangle_area(10,8)}')
-
+from geometry.square import count_square_area
 from geometry.triangle import count_triangle_area as count_triangle
-print(f'The Area of triangle with width 10 and height 8 is {count_triangle(10,8)}')
+
+print(f'The Area of triangle with width 10 and height 8 is {count_triangle(10, 8)}')
+print('-' * 22)
+print(f'The Area of square with width 10 and height 8 is {count_square_area(10, 8)}')
